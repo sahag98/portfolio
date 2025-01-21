@@ -22,7 +22,7 @@ export default async function ProjectsPage() {
 
   const featured = allProjects.find((project) => project.slug === "unkey")!;
   const top2 = allProjects.find((project) => project.slug === "planetfall")!;
-  const top3 = allProjects.find((project) => project.slug === "highstorm")!;
+  const top3 = allProjects.find((project) => project.slug === "adminportal")!;
   const sorted = allProjects
     .filter((p) => p.published)
     .filter(
@@ -45,9 +45,9 @@ export default async function ProjectsPage() {
           <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
             Projects
           </h2>
-          <p className="mt-4 text-zinc-400">
-            Some of the projects are from my personal work and some are on my
-            own time.
+          <p className="mt-4 text-lg text-zinc-400">
+            These projects consist of freelance work and projects I&apos;ve
+            built to gain knowledge on certain technologies.
           </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />
