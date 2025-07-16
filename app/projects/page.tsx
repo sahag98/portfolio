@@ -46,8 +46,8 @@ export default async function ProjectsPage() {
             Projects
           </h2>
           <p className="mt-4 text-lg text-zinc-400">
-            These projects consist of freelance work and projects I&apos;ve
-            built to gain knowledge on certain technologies.
+            These projects consist of both freelance client work and projects
+            I&apos;ve built to gain knowledge on certain technologies.
           </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />
